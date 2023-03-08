@@ -111,6 +111,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This [project](https://github.com/ShiroYaksha90/Leaderboard) is [MIT](https://github.com/ShiroYaksha90/Leaderboard/blob/setup-project/LICENCE) licensed.
+This [project](https://github.com/ShiroYaksha90/Leaderboard) is [MIT](#) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
