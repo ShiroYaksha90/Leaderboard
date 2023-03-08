@@ -246,8 +246,9 @@
     "ws": "^8.12.1"
   },
   "scripts": {
-    "dev": "webpack --mode development",
-    "start": "webpack serve --mode development --open"
+    "deploy": "gh-pages -d dist",
+    "start": "webpack serve --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
