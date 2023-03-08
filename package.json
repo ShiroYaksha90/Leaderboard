@@ -96,6 +96,7 @@
     "function-bind": "^1.1.1",
     "get-intrinsic": "^1.2.0",
     "get-stream": "^6.0.1",
+    "gh-pages": "^5.0.0",
     "glob": "^7.2.3",
     "glob-parent": "^5.1.2",
     "glob-to-regexp": "^0.4.1",
@@ -260,5 +261,5 @@
   "bugs": {
     "url": "https://github.com/ShiroYaksha90/Leaderboard/issues"
   },
-  "homepage": "https://github.com/ShiroYaksha90/Leaderboard#readme"
+  "homepage": "https://github.com/ShiroYaksha90/Leaderboard"
 }
