@@ -1,7 +1,7 @@
 import './style.css';
 import ApiOp from './modules/display.js';
 
-const refereshButton = document.getElementById('referesh');
+const refereshButton = document.getElementById('refresh');
 const form = document.querySelector('#form');
 
 document.addEventListener('DOMContentLoaded', () => {

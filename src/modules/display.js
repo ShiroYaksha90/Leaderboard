@@ -6,16 +6,12 @@ const player = {
   score: Number,
 };
 
-const gameName = {
-  name: 'Random scores',
-};
-
 export default class ApiOp {
   static newGame = async () => {
     const reply = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/',
       {
         method: 'POST',
-        body: JSON.stringify(gameName),
+        body: 'Random scores',
         headers: {
           'content-type': 'application/json',
         },
