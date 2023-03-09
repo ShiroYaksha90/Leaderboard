@@ -7,19 +7,6 @@ const player = {
 };
 
 export default class ApiOp {
-  static newGame = async () => {
-    const reply = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/',
-      {
-        method: 'POST',
-        body: 'Random scores',
-        headers: {
-          'content-type': 'application/json',
-        },
-      });
-    const data = await reply.json();
-    return data;
-  }
-
   static newScore = async () => {
     if (userName.value.length !== 0 && userScore.value.length !== 0) {
       player.user = userName.value;
