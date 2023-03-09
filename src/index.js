@@ -1,7 +1,7 @@
 import './style.css';
 import ApiOp from './modules/display.js';
 
-const refereshButton = document.getElementById('refresh');
+const refreshButton = document.getElementById('refresh');
 const form = document.querySelector('#form');
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -13,6 +13,6 @@ form.addEventListener('submit', (event) => {
   ApiOp.newScore();
   ApiOp.clearFormInput();
 });
-refereshButton.addEventListener('click', () => {
+refreshButton.addEventListener('click', () => {
   ApiOp.render();
 });
