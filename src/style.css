@@ -1,30 +1,52 @@
 * {
   margin: 0;
   border: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   box-sizing: border-box;
+  color: goldenrod;
+}
+
+body {
+  background-image: url(./assets/main-program.png);
 }
 
 header {
-  margin: 4% 2%;
+  margin: 4% 0 4% 8%;
+  font-size: xx-large;
 }
 
 .content-container {
   margin: 5% 4% 0 4%;
   padding: 0%;
   display: flex;
-  gap: 150px;
+  gap: 140px;
+}
+
+h2 {
+  font-size: xx-large;
 }
 
 .bourd-countainer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: rgba(57, 57, 57, 0.111);
+  border: 1px  solid wheat;
+
+  /* padding: 1%; */
+  width: 40%;
 }
 
 .bourd-header {
+  width: 100%;
   display: flex;
-  gap: 90px;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.form-container {
+  border: 1px  solid wheat;
+  padding: 1%;
 }
 
 form {
@@ -35,24 +57,32 @@ form {
 }
 
 input {
-  border: 1px solid #000;
+  border: 1px solid wheat;
+  background-color: rgb(251, 232, 197);
+  color: #000;
 }
 
 button {
-  border: 1px solid #000;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.8);
+  background-color: rgb(30 30 30);
+  box-shadow: 1px 1px 1px 1px rgba(196, 177, 2, 0.611);
+  font-size: large;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .scores {
-  border: 1px solid #000;
   list-style: none;
   padding: 3% 0;
 }
 
 .item {
   padding: 0 1%;
+  font-size: large;
+  font-weight: 600;
 }
 
 .item:nth-child(even) {
-  background-color: lightgray;
+  background-color: rgb(56, 55, 54);
 }
